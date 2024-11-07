@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSServerless2", "AWSServerless2\AWSServerless2.csproj", "{561131F5-7C0F-4052-869C-632FE8104E0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSServerless2.Tests", "AWSServerless2.Tests\AWSServerless2.Tests.csproj", "{C48828A1-1E15-4DBA-A065-96EEF7489160}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymLambdaAuthorizer", "GymLambdaAuthorizer\GymLambdaAuthorizer.csproj", "{659CF88E-F169-4EA1-B1E1-C30C357E3764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSServerless2.Application", "AWSServerless2.Application\AWSServerless2.Application.csproj", "{D99F594C-FED0-429C-9416-7BA8B7AF7735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSServerless2.Domain", "AWSServerless2.Domain\AWSServerless2.Domain.csproj", "{9B0FF089-67AC-4EE0-B831-971880408E45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{561131F5-7C0F-4052-869C-632FE8104E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561131F5-7C0F-4052-869C-632FE8104E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561131F5-7C0F-4052-869C-632FE8104E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561131F5-7C0F-4052-869C-632FE8104E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48828A1-1E15-4DBA-A065-96EEF7489160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48828A1-1E15-4DBA-A065-96EEF7489160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48828A1-1E15-4DBA-A065-96EEF7489160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48828A1-1E15-4DBA-A065-96EEF7489160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659CF88E-F169-4EA1-B1E1-C30C357E3764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659CF88E-F169-4EA1-B1E1-C30C357E3764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659CF88E-F169-4EA1-B1E1-C30C357E3764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659CF88E-F169-4EA1-B1E1-C30C357E3764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99F594C-FED0-429C-9416-7BA8B7AF7735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99F594C-FED0-429C-9416-7BA8B7AF7735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99F594C-FED0-429C-9416-7BA8B7AF7735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99F594C-FED0-429C-9416-7BA8B7AF7735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0FF089-67AC-4EE0-B831-971880408E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0FF089-67AC-4EE0-B831-971880408E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0FF089-67AC-4EE0-B831-971880408E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0FF089-67AC-4EE0-B831-971880408E45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DBEFAEF-830F-44AE-B30C-B41D79EE1F49}
+	EndGlobalSection
+EndGlobal
